@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mn_main_screen_most_popular"
+        android:title="@string/most_popular"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+
+    <item android:id="@+id/mn_main_screen_highest_rated"
+        android:title="@string/highest_rated"
+        app:showAsAction="ifRoom"
+        />
+</menu>
